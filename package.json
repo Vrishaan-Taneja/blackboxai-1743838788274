@@ -1,0 +1,15 @@
+{
+  "name": "adventure-game-platform",
+  "version": "1.0.0",
+  "description": "Guild-based adventure game platform",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "setup": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
